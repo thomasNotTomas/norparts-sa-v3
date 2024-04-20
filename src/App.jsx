@@ -13,7 +13,7 @@ function App() {
     <>
       <Header></Header>
       <MobileMenu></MobileMenu>
-      <main className="flex flex-col mx-8 mb-16 lg:py-0 space-y-10 lg:space-y-20 max-w-6xl xl:mx-auto">
+      <main className="font-title flex flex-col mx-8 mb-16 lg:py-0 space-y-10 lg:space-y-20 max-w-6xl xl:mx-auto">
         <img src="/other/norparts-sa-logo.svg" alt="Logo" className="lg:hidden mx-auto mt-12" />
         <Landing></Landing>
         <Areas></Areas>

@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        title: ["Work Sans", "sans-serif"]
+      },
       fontSize: {
         sm: '0.75rem',
         base: '1rem',

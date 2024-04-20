@@ -7,7 +7,7 @@ function Footer() {
 
         <>
         <div className="h-px w-full bg-blue-900"></div>
-        <section className="flex flex-col lg:flex-row pt-16 pb-48 bg-white space-y-12 mb-16">
+        <section className="font-title flex flex-col lg:flex-row pt-16 pb-48 bg-whitest space-y-12 mb-16">
             <div className="flex items-center mx-auto">
                 <figure className="flex flex-col mx-auto space-y-2 max-w-72">
                     <img src="/other/norparts-sa-logo.svg" alt="Logo" />

@@ -9,7 +9,7 @@ function Header() {
         <section className="hidden 
             lg:flex justify-between max-w-7xl
             mx-auto py-8 px-12
-            rounded-3xl">
+            rounded-3xl font-title">
             <img src="/other/norparts-sa-logo.svg" alt="Logo" />
             <div className="flex space-x-6
                             rounded-3xl">
