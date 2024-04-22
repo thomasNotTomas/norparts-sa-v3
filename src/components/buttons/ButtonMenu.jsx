@@ -11,7 +11,9 @@ function ButtonMenu( { iconmobile, icondesktop, text, onClick} ) {
                            
                            lg:flex-row
                            lg:space-y-0 lg:space-x-4 lg:px-2
-                           lg:text-blue-700 lg:text-base">
+                           lg:text-blue-700 lg:text-base
+                           hover:text-blue-300
+                           transition-all ease-in-out 500ms">
         <img src={iconmobile} alt="Mobile Icon" className="h-6 w-6 lg:hidden" />
         <img src={icondesktop} alt="Desktop Icon" className="h-8 w-8 hidden lg:block" />
         <h5> {text} </h5>
