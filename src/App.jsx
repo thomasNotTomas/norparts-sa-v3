@@ -23,10 +23,15 @@ function App() {
 
   return (
     <>
-      <Header></Header>
+      <Header
+      scrollToContact={() => scrollToSection(contactRef)}
+      scrollToServices={()=> scrollToSection(servicesRef)}
+      scrollToProducts={() => scrollToSection(productsRef)}
+      scrollToAreas={() => scrollToSection(areasRef)}></Header>
       <MobileMenu 
       scrollToContact={() => scrollToSection(contactRef)}
       scrollToServices={() => scrollToSection(servicesRef)}
+      scrollToProducts={() => scrollToSection(productsRef)}
       scrollToAreas={() => scrollToSection(areasRef)}></MobileMenu>
       <main className="font-title flex flex-col mx-8 mb-16 lg:py-0 space-y-10 lg:space-y-20 max-w-6xl xl:mx-auto">
         <img src="/other/norparts-sa-logo.svg" alt="Logo" className="lg:hidden mx-auto mt-12" />

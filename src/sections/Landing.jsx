@@ -8,7 +8,7 @@ function Landing() {
     return(
 
         <>
-        <section className="flex flex-col lg:flex-row justify-between">
+        <section className="flex flex-col lg:pt-24 lg:flex-row justify-between">
             <form action="" className="flex flex-col mx-auto lg:mx-2 space-y-4 max-w-lg">
                 <div className="text-blue-700 space-y-6">
                     <h1 className="text-xxl font-bold">Repuestos y reparaciones para tu empresa</h1>
