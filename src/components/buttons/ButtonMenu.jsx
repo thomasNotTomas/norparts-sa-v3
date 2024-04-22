@@ -1,11 +1,11 @@
 import React from "react"
 
-function ButtonMenu( { iconmobile, icondesktop, text} ) {
+function ButtonMenu( { iconmobile, icondesktop, text, onClick} ) {
 
     return(
 
         <>
-        <button className="flex flex-col items-center
+        <button onClick={onClick} className="flex flex-col items-center
                            space-y-2
                            text-white text-sm font-semibold
                            

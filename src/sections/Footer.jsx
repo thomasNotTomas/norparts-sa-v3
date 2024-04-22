@@ -1,12 +1,12 @@
 import React from "react"
 import FooterItem from "../components/other/FooterItem"
 
-function Footer() {
+function Footer( {contactRef} ) {
 
     return(
 
         <>
-        <div className="h-px w-full bg-blue-900"></div>
+        <div ref={contactRef} className="h-px w-full bg-blue-900"></div>
         <section className="font-title flex flex-col lg:flex-row pt-16 pb-48 bg-whitest space-y-12 mb-16">
             <div className="flex items-center mx-auto">
                 <figure className="flex flex-col mx-auto space-y-2 max-w-72">

@@ -11,13 +11,13 @@ function Header() {
             mx-auto py-8 px-12
             rounded-3xl font-title">
             <img src="/other/norparts-sa-logo.svg" alt="Logo" />
-            <div className="flex space-x-6
+            <nav className="flex space-x-6
                             rounded-3xl">
                 <ButtonMenu icondesktop='/icons/truck-brand.svg' text='Areas'></ButtonMenu>
                 <ButtonMenu icondesktop='/icons/services-brand.svg' text='Servicios'></ButtonMenu>
                 <ButtonMenu icondesktop='/icons/product-brand.svg' text='Productos'></ButtonMenu>
                 <ButtonMenu icondesktop='/icons/contact-brand.svg' text='Contacto'></ButtonMenu>
-            </div>
+            </nav>
         </section>
         </>
 
